@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "factoryprojects"
+		},
+		"AzureSqlls_password": {
+			"value": ""
+		},
+		"datalakels_accountKey": {
+			"value": ""
+		},
+		"AzureSqlls_properties_typeProperties_server": {
+			"value": "leelaserver.database.windows.net"
+		},
+		"AzureSqlls_properties_typeProperties_database": {
+			"value": "leeladb"
+		},
+		"AzureSqlls_properties_typeProperties_userName": {
+			"value": "leelaadmin"
+		},
+		"datalakels_properties_typeProperties_url": {
+			"value": "https://leelastorage.dfs.core.windows.net/"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
