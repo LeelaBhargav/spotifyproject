@@ -1,0 +1,17 @@
+{
+	"name": "AzureSqlls",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "leelaserver.database.windows.net",
+			"database": "leeladb",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "leelaadmin",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDU2RkVGOTQ3LUQzNkEtNEU3Ri1CMTU2LTQ1N0VGMTQxOTNBMF9mYzQ2YTE1NS00ZWUzLTQ4OTItYTMzMS1hOTBmZDRmODdmMGUiDQp9"
+		}
+	}
+}
